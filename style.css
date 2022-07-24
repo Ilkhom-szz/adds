@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+.modal-bg {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,.5);
+    backdrop-filter: blur(10px);
+    display: none;
+    opacity: 0;
+    transition: .5s ease;
+}
+  
+  .login-box {
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+  }
+  
+  .login-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .login-box .user-box {
+    position: relative;
+  }
+  
+  .login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+  }
+  .login-box .user-box label {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+  }
+  
+  .login-box .user-box input:focus ~ label,
+  .login-box .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #006EDD;
+    font-size: 12px;
+  }
+
+.head-content{
+    padding: 50px;
+}
+.form-div{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.inp{
+    width: 200px;
+    height: 40px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    margin-top: 23px;
+    border-radius: 10px;
+    border: none;
+    background-color: #0071E3;
+    color: white;
+}
+.cont-head{
+    display: flex;
+    gap: 180px;
+    padding-left: 50px;
+}
+hr{
+    width: 880px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.box{
+    display: flex;
+    gap: 180px;
+    width: 880px;
+    margin-left: 60px;
+}
+p{
+  width: 40px;
+}
+
+$
